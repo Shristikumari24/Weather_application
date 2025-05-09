@@ -45,6 +45,7 @@ userTab.addEventListener("click", () => {
 searchTab.addEventListener("click", () => {
     //pass clicked tab as input paramter
     switchTab(searchTab);
+    console.log("Hii");
 });
 
 //check if cordinates are already present in session storage
